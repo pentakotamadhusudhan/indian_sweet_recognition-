@@ -34,14 +34,38 @@ V - Visual<br>
 G - Geomarty<br>
 G - Groups<br>
 16 - 16layers of deep learning<br>
-those  16layers are splited into groups shown below
+those  16layers are splited into groups shown below 
 
 <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200219152327/conv-layers-vgg16.jpg'><br>
 ## flattening
 In practice, we have to transform the image into very small numbers. For example, if we wanted to identify a dog we could say that the number close to zero identifies the dog and the number nearest to 1 identifies the cat.<br>
 
+once successfully run the model file, you can find the following file:<br>
+indain_sweets_models2_final.h5
+and  copy path and update the path in predcetion.py 
 
+
+change directory  to django project where manage.py available
+and run the following command 
 
 `` python manage.py runserver `` <br>
+and you can access the server in local host and port 8000
+
  http://localhost:8000
+<br>
+
+for security reasons we have run another command <br>
+``
+python manage.py createsuperuser    ``<br>
+ 
+ submit the details
+ above command create Super User 
+ one super user successfully created 
+ ``  http://localhost:8000/up ``
+  upload the images and test the results .
+  <br>
+  
+
+i provide  losses and accuracy graphs 
+
 
