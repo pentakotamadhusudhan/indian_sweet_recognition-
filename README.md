@@ -10,9 +10,9 @@ replace the path  of training data and testing data and Validation data
 
 # create a validation data
 ``
-train_data_dir = downloaded_images\train'
-validation_data_dir = downloaded_images\validation'
-test_data_dir = downloaded_images\test'
+train_data_dir = downloaded_images\train'``
+``validation_data_dir = downloaded_images\validation'``
+``test_data_dir = downloaded_images\test'
 ``
 ## create model 
 ``
